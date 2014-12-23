@@ -6,7 +6,8 @@ A simple app for keeping track of who is in the office at any given time. Each m
 
 Technology Breakdown: The user movements are tracked through an iOS app that detects the iBeacon network within the office. The iOS app communicates to a Node.js server through REST calls. Another Node instance runs locally within the company firewall and pings out to the cloud node server periodically. Any updates it detects are relayed to the Hue network through more REST calls. 
 
-Relevant Blog Posts
+Relevant Blog Posts:
+
 [My First Beacon App](http://dcinglis.wordpress.com/2014/06/27/my-first-beacon-app/)
 
 [The Roll Call App](http://dcinglis.wordpress.com/2014/07/15/the-roll-call-app-integrating-beacons-with-node-js-and-mongodb/)
@@ -16,7 +17,8 @@ Relevant Blog Posts
 ### [JSDO Proof-Of-Concept](https://github.com/progress/angular-jsdo-demo)
 Progress uses their Javascript Data Object protocol for much of their backend data storage and transfer. This was a proof-of-concept to show that a Node.js server could access data exposed with this protocol and convert it into JSON form to be consumed by front end services. In this demo, a simple AngularJS site uses REST calls to access the data from Node and display it to the client in table form. 
 
-Relevant Blog Posts
+Relevant Blog Posts:
+
 [Displaying OpenEdge Data in an AngularJS Web App](http://dcinglis.wordpress.com/2014/08/19/display-openedge-data-in-an-angularjs-web-app/) 
 
 ### [Implementing JSDO in a Node Server](https://github.com/progress/jsdo-node)
